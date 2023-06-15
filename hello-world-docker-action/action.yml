@@ -1,0 +1,13 @@
+name: 
+descripton:
+author: '@LittleColin'
+branding:
+  icon: award
+  color: green
+inputs:
+  who-to-greet:
+     description: "Name of person to greet"
+     default: "world"
+outputs:
+  current-time:
+    description: "The current date/time"
