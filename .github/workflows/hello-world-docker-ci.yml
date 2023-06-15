@@ -12,8 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Run action
-        id: hello-action
-        uses: ./hello-world-docker-action
+        id: hello-action        
         with:
           who-to-greet: "@LittleColin"
       - name: Output time set in the container
