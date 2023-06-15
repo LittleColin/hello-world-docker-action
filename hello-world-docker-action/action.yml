@@ -11,3 +11,8 @@ inputs:
 outputs:
   current-time:
     description: "The current date/time"
+runs:
+  using: docker
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-greet }}
