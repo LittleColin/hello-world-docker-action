@@ -4,4 +4,4 @@ COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x entrypoint.sh
 
-ENTRYPOINT ["ls -l /"]
+ENTRYPOINT ["/bin/bash -c 'ls -l /'"]
